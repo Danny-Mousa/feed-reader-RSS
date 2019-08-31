@@ -58,8 +58,8 @@ Jasmine is a Behavior Driven Development testing framework for JavaScript. It do
  I used the first approach from the previous section (`How to build`) with the release number of [3.3.0](https://github.com/jasmine/jasmine/releases/tag/v3.3.0)
  which is released on  Oct 25, 2018
 ## How to run this project :
-   - To run the project directly, please click [here]( https://danny-mousa.github.io/feed-reader-project/.).
-   - For developers: the project repository is [here](https://github.com/Danny-Mousa/feed-reader-project).
+   - To run the project directly, please click [here](https://danny-mousa.github.io/feed-reader-RSS/.).
+   - For developers: the project repository is [here](https://github.com/Danny-Mousa/feed-reader-RSS).
    - Or you can `clone` this repo or `download` it as a `.zip` flie, then open the `index.html` file and you can see the testing results at the page bottom      
 
 ## Additional suite with its spec which i added
