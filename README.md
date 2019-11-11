@@ -1,4 +1,13 @@
 # Feed Reader Testing
+
+## What is Jasmine
+Jasmine is a Behavior Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, Node.js projects, or anywhere that JavaScript can run.
+
+## How to run this project :
+   - To run the project directly,please click [here](https://danny-mousa.github.io/feed-reader-RSS/.).
+   - For developers: the project repository is [here](https://github.com/Danny-Mousa/feed-reader-RSS).
+   - Or you can `clone` this repo or `download` it as a `.zip` flie, then open the `index.html` file and you can see the testing results at the page bottom 
+
 ## Project Overview:
 > I was given a web-based application that reads RSS feeds, and my task is to write a testing code using Jasmine testing framework to make sure that the basic functionalities of the app are working as expected
 
@@ -22,8 +31,6 @@
   - `New Feed Selection` suite, incluides the following spec:
     - `when a new feed is loaded by the loadFeed function, should the content actually changes` spec
 
-## What is Jasmine
-Jasmine is a Behavior Driven Development testing framework for JavaScript. It does not rely on browsers, DOM, or any JavaScript framework. Thus it's suited for websites, Node.js projects, or anywhere that JavaScript can run.
 
 ## How to build
  If you want to build your own testing code using jasmine, you have to do just one of the following approaches :
@@ -57,10 +64,6 @@ Jasmine is a Behavior Driven Development testing framework for JavaScript. It do
 ## How i build this project
  I used the first approach from the previous section (`How to build`) with the release number of [3.3.0](https://github.com/jasmine/jasmine/releases/tag/v3.3.0)
  which is released on  Oct 25, 2018
-## How to run this project :
-   - To run the project directly, please click [here](https://danny-mousa.github.io/feed-reader-RSS/.).
-   - For developers: the project repository is [here](https://github.com/Danny-Mousa/feed-reader-RSS).
-   - Or you can `clone` this repo or `download` it as a `.zip` flie, then open the `index.html` file and you can see the testing results at the page bottom      
 
 ## Additional suite with its spec which i added
 I noticed that it is important to ensure that the feed page we want to be the default loaded feed when first load is occuring, so i added an additional suite which i called `Initial Feed`, and i added the `should be the expected feed which is specified at the first item in the allFeeds array` spec to it.
